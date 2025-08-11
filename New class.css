@@ -1,0 +1,13 @@
+.title{
+    color: red;
+    font-size: 55px;
+}
+        .name{
+            color: rgb(19, 92, 92);
+        }
+        #another{
+            color: brown;  
+        }
+        span{
+            color: chocolate;
+        }
