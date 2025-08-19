@@ -114,11 +114,12 @@ nav{
 .video-section{
     padding: 40px;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
  .video-image{
-    width: 430px;
+    width: 400px;
     margin-bottom: 10px;
     border-radius: 14px;
  }
@@ -158,3 +159,4 @@ nav{
  .video-stats{
     font-size: 14px;
  }
+ 
