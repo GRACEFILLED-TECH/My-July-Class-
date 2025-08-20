@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+}
+button{
+    cursor: pointer;
+}
+h1,ul{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+}
+.left-bar{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 15px;
+   
+}
+li{
+    list-style: none;
+    font-weight: bold;
+    
+    font-family: 'Rubik';
+}
+
+li:hover{
+    color: #0983d4;
+    cursor: pointer;
+}
+.left-bar img{
+    width: 150px;
+}
+.right-bar button:first-child{
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+.right-bar button:first-child:hover{
+    color: #13a2ff;
+}
+.demo-btn{
+    color: #fc5b1a;
+    border: 2px solid #fc5b1a;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background: none;
+}
+.demo-btn:hover{
+    background-color: #ec5c23;
+    color: white;
+}
+.right-bar button:last-child{
+    color: white;
+    background-color: #13a2ff;
+    border: 2px solid #118ee2;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.right-bar button:last-child:hover{
+    background-color: white;
+    color: #13a2ff;
+}
+.hero-contents{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+.hro-p{
+    color: #717771;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+.hro-p1{
+    color: black;
+    font-size: 52.26px;
+    font-family: 'Rubik', sans-serif;
+}
+.hro-p2{
+    color: black;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    margin: 0px 0px 60px;
+}
+.hro-p3{
+    background-color: #fbe30d;
+    padding: 17px 31px; 
+    border: 4px solid #e4d500;
+    border-radius: 25px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hro-p3:hover{
+    background-color: #13a2ff;
+    border: 5px solid #0983d4;
+    color: white;
+}
+.hro-p4{
+    font-size: 10px;
+    margin: 13px 0px 0px;
+    font-family: 'Rubik';
+}
+.last-sec{
+    
+ text-align: center;
+}
+.menu{
+    display: none;
+}
+
+@media (max-width: 600px){
+.list{
+    display: none;
+ } 
+ .demo-btn{
+    display: none;
+ }
+ .right-bar button:first-child{
+    display: none;
+ }
+
+ li{
+    display: none;
+ }
+ .hero-section h1{
+    font-size: 32px;
+    padding: 0px 20px;
+    } 
+    .menu{
+        display: flex;
+        margin: auto;
+        align-items: center;
+    }
+    .sign-up{
+        display: none;
+    }
+}
+ 
